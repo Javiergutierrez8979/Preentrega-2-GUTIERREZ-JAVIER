@@ -1,0 +1,152 @@
+/*color de fondo de la pagina*/
+body {
+    background: linear-gradient(to right, white ,black);
+}
+
+main.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-color: antiquewhite;
+    -moz-text-decoration-color: antiquewhite;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header ul { 
+    display: inline-block;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: aliceblue;
+}
+
+
+/*config del logo del header*/
+
+#logo {
+    width: 150px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+main {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+/*iframe del index*/
+
+main iframe {
+    position: relative;
+    width: 100rem;
+    height: 40rem;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* config de los footer*/
+
+footer ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+/*card de flota*/
+.card img {
+    display: flex;
+    justify-content: center;
+    width: 30em;
+}
+
+div.card {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div img {
+    width: 40em;
+    padding-left: 20px;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+ 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  /* Tamaño del form*/
+  form input {
+    width: 40em;
+  }
+  
+
+  textarea {
+    /* Alinear los campos de texto */
+    vertical-align: top;
+  
+    /* Dimension del texto */
+    width: 40em;
+    height:40em;
+  }
+
+  /*boton de contacto enviar*/
+
+.button{
+    padding: 20px;
+    margin-left: 42em;
+    background-color: blue;
+
+}
