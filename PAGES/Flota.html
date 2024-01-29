@@ -1,86 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flota</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>FLOTA</title>
 </head>
 <body>
-    <header>
 
-        <img id="logo" src="/IMG/logo pagina.jpg" alt="">
+  <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid ">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="text-white-50 nav-link active" aria-current="page" href="/index.html">INICIO</a>
-                  <a class="text-white-50 nav-link" href="/PAGES/Servicios.html">SERVICIOS</a>
-                  <a class="text-white-50 nav-link" href="/PAGES/Flota.html">FLOTA</a>
-                  <a class="text-white-50 nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
-                  <a class="text-white-50 nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
+    <img id="logo" src="/IMG/logo pagina.jpg" alt="">
 
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-
-
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
     
-    </header>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="text-white-50 nav-link" href="/PAGES/Servicios.html">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white-50 nav-link" href="/PAGES/Flota.html">FLOTA</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white-50 nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white-50 nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
+          </li>
 
-    <hr>
-
-    <br>
-
-    <main>
-
-
-      <br>
-
-
-      <div>
-        <h1>Nuestra Flota de aviones</h1>
-      </div>
-
-        <br>
-        <section class="grid-container">
-          <div class="grid-item">
-            <img src="/IMG/LR60.jpg" alt="">
-          <p style="padding: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus iure possimus eius error accusamus aut id modi harum, esse, quis incidunt voluptate eveniet ullam doloremque cupiditate, ad voluptas doloribus eos.</p>
-          </div>
-          <div class="grid-item">
-            <img src="/IMG/CT CESSNA.jpg" alt="">
-            <p style="padding: 10px">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum numquam quidem harum voluptates cupiditate, expedita debitis, eligendi iste eaque, mollitia ut. Quam repellat maiores nam suscipit nemo, eos voluptatem exercitationem.</p>
-
-          </div>
-        </section>
-
-
-    <hr>
-
-    <footer>
-
-        <ul>
-            <li><img style="width: 100px; height: 100px;" src="/IMG/logoface.png" alt="conocer facebook"></li>
-            <li><img style="width: 100px; height: 100px;" src="/IMG/logolikedin.png" alt="conocer likedin"></li>
-            <li><img style="width: 100px; height: 100px;"src="/IMG/whatsapp.png" alt="escribir al wathsaap"></li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</header>
 
+
+
+  <main>
+
+    <section class="grid-container">
+      <div class="grid-item">
+        <img class="img-flota" src="/IMG/LR60.jpg" alt="">
+      </div>
+      <div class="grid-item">
+        <img class="img-flota" src="/IMG/CT CESSNA.jpg" alt="">
+      </div>
+      <div class="grid-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolor quae modi labore autem animi deserunt omnis dolores eius ipsum laudantium neque dolore magni, a, accusamus quo ipsa blanditiis? Quisquam?</div>
+      <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor esse cumque vel quidem et quod, harum numquam quibusdam possimus voluptas totam eligendi perferendis necessitatibus eum obcaecati veniam ducimus adipisci quia.</div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>

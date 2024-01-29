@@ -1,5 +1,14 @@
+/*quitando valores por defecto*/
+* {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
 /*color de fondo de la pagina*/
 body {
+    padding: 0px;
     background: linear-gradient(to right, white ,black);
 }
 
@@ -44,7 +53,8 @@ a {
 }
 
 main {
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -99,7 +109,6 @@ div img {
 section {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
 
@@ -145,8 +154,35 @@ form {
   /*boton de contacto enviar*/
 
 .button{
-    padding: 20px;
+
     margin-left: 42em;
     background-color: blue;
+
+}
+
+.img-flota{
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.2) ;
+    margin-bottom: 10px;
+
+}
+
+.grid-container { 
+    display: grid;
+    justify-content: center;
+    align-items:flex-start  ;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+.grid-item {
+
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
 
 }
