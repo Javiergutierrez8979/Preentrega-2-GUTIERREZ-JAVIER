@@ -10,71 +10,96 @@
 
 </head>
 <body>
-    <header>
 
-        <img id="logo" src="/IMG/logo pagina.jpg" alt="">
+  <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="text-white-50 nav-link" href="/PAGES/Servicios.html">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Flota.html">FLOTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
-              </li>
+    <nav class="navbar navbar-expand-lg ">
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">  <img id="logo" src="/IMG/logopagina.jpg" alt="logodepagina"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-5" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/PAGES/Servicios.html">SERVICIOS</a>
+            <a class="nav-link" href="/PAGES/Flota.html">FLOTA</a>
+            <a class="nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
+            <a class="nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
+
           </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
 
-    
-    </header>
+  </header>
 
     <hr>
-
-    <br>
 
     <main>
 
 
-<div>
-    <form action="" method="post">
-        <ul>
-          <li>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="nombre" />
-          </li>
-          <li>
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="mail" />
-          </li>
-          <li>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea>
-          </li>
-          <li class="button">
-            <button type="button submit"  class="btn btn-primary">ENVIAR</button>
-          </li>
-        </ul>
 
-        
-      </form>
+<div>
+
+  <h1 class="titulos"> <u>CONTACTO</u></h1>
+
+
+<form class="row g-3 needs-validation m-1" novalidate="">
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip01" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="validationTooltip01" value="Mark" required="">
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required="">
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+
+  <div class=" col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Email</label>
+    <input type="email" class="form-control" id="validationTooltip02" value="Otto@gmail.com" required="">
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+
+  <div class="form-floating">
+    <label for="validationTooltip02" class="form-label">Mensaje</label>
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+  </div>
+
+
+
+
+  
+  <div class="col-md-6 position-relative">
+    <label for="validationTooltip03" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="validationTooltip03" required="">
+    <div class="invalid-tooltip">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <label for="validationTooltip04" class="form-label">Pais</label>
+    <select class="form-select" id="validationTooltip04" required="">
+      <option selected="" disabled="" value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-tooltip">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
 
 
 
@@ -85,16 +110,18 @@
 
     <hr>
 
+
     <footer>
 
-        <ul>
-            <li><img style="width: 100px; height: 100px;" src="/IMG/logoface.png" alt="conocer facebook"></li>
-            <li><img style="width: 100px; height: 100px;" src="/IMG/logolikedin.png" alt="conocer likedin"></li>
-            <li><img style="width: 100px; height: 100px;"src="/IMG/whatsapp.png" alt="escribir al wathsaap"></li>
-        </ul>
+      <ul class="flex-lg-row justify-content-between">
+
+          <li><img class="w-50 h-50 " src="/IMG/logoface.png" alt=""></li>
+          <li><img class="w-50 h-50 "  src="/IMG/logolikedin.png" alt=""></li>
+          <li><img class="w-50 h-50" src="/IMG/whatsapp.png" alt="escribir al wathsaap"></li>
+
+      </ul>
 
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>

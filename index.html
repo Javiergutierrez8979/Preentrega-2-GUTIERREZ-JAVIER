@@ -10,60 +10,69 @@
 <body>
     <header>
 
-        <img id="logo" src="./IMG/logo pagina.jpg" alt="">
+      <nav class="navbar navbar-expand-lg ">
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">  <img id="logo" src="/IMG/logopagina.jpg" alt="logodepagina"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#"></a>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="text-white-50 nav-link" href="/PAGES/Servicios.html">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Flota.html">FLOTA</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="text-white-50 nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
-              </li>
+          <div class="collapse navbar-collapse m-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/PAGES/Servicios.html">SERVICIOS</a>
+              <a class="nav-link" href="/PAGES/Flota.html">FLOTA</a>
+              <a class="nav-link" href="/PAGES/Nosotros.html">NOSOTROS</a>
+              <a class="nav-link" href="/PAGES/Contacto.html">CONTACTO</a>
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </div>
           </div>
-        </nav>
+        </div>
+      </nav>
 
 
 
     </header>
-    
-
+  
     <hr>
 
     <main>
 
-        <iframe class: video height="315" src="https://www.youtube.com/embed/ko3VfTxqqak?si=u3IZZkwrPUaZVkot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
-        <br>
-        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptate beatae consequatur corporis ea veniam quas rem fuga sit dolor minus nam exercitationem ut eveniet ad quo esse, illo accusantium?</h1>
+      <img class="img-index" src="/IMG/avionindex.jpeg" alt="avionEnHangar">
 
+        <br>
+
+        <div class="texto">
+
+          <h2>Nos comprometemos a:</h2>
+          <ol>
+            <li>Excelencia en el Servicio: Brindar un servicio al cliente incomparable, garantizando comodidad y lujo en cada momento de la experiencia de vuelo.
+            </li>
+            <li>Seguridad como Prioridad: Mantener los más altos estándares de seguridad aérea, cumpliendo y superando todas las regulaciones y normativas de la industria.
+            </li>
+            <li>Flexibilidad y Personalización: Adaptar cada viaje a las necesidades y preferencias individuales de nuestros clientes, ofreciendo itinerarios flexibles y soluciones a medida.
+            </li>
+            <li>Flota de Última Generación: Contar con una flota de aeronaves modernas, equipadas con las últimas tecnologías y comodidades para garantizar un viaje de primera clase.
+            </li>
+            <li>Ética Empresarial: Operar de manera ética, transparente y sostenible, contribuyendo al bienestar de la comunidad y al cuidado del medio ambiente.
+            </li>
+          </ol>
+          <p>
+            
+          </p>
+        </div>
+ 
     </main>
 
     <hr>
 
     <footer>
 
-        <ul>
-            <li><img style="width: 100px;" src="./IMG/logoface.png" alt=""></li>
-            <li><img style="width: 100px;" src="./IMG/logolikedin.png" alt=""></li>
-            <li><img style="width: 100px;"src="./IMG/whatsapp.png" alt="escribir al wathsaap"></li>
+        <ul class="flex-lg-row justify-content-between">
+
+            <li><img class="w-50 h-50 " src="./IMG/logoface.png" alt=""></li>
+            <li><img class="w-50 h-50 "  src="./IMG/logolikedin.png" alt=""></li>
+            <li><img class="w-50 h-50" src="./IMG/whatsapp.png" alt="escribir al wathsaap"></li>
 
         </ul>
 
